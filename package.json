@@ -1,0 +1,19 @@
+{
+  "name": "signedtransactioninfura",
+  "version": "1.0.0",
+  "description": "",
+  "main": "initial.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sssubik/GethTransactions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sssubik/GethTransactions/issues"
+  },
+  "homepage": "https://github.com/sssubik/GethTransactions#readme"
+}
