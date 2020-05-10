@@ -13,7 +13,7 @@ module.exports = sendTransaction
 
     async function sendTransaction(data){
     await web3.eth.getTransactionCount(account1).then( async (count,error) =>{
-    const txObject = {
+    const txObject = { 
         nonce: web3.utils.toHex(count),
         to: account2,
         gasLimit: web3.utils.toHex(23000),
