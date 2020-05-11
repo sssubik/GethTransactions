@@ -73,7 +73,7 @@ module.exports = class Transaction{
       
     static sendTransaction(toAccount){
         sendSignedTransaction(toAccount,txHash => {
-            fs.appendFile(p, JSON.stringify(txHash)+",",err =>{
+            fs.writeFile((p, JSON.stringify(txHash)),err =>{
                 console.log(txHash)
             })
         })
